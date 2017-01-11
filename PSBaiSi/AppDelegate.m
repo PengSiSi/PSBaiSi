@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AdvertiseViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    UIWindow *window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    AdvertiseViewController *rootVc = [[AdvertiseViewController alloc]init];
+//    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:rootVc];
+    self.window.rootViewController = rootVc;
+
     return YES;
 }
 
