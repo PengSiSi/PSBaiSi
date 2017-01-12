@@ -52,6 +52,7 @@
 		F176A7451E2606350076D301 /* FriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A7441E2606350076D301 /* FriendTrendViewController.m */; };
 		F176A7481E2607210076D301 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A7471E2607210076D301 /* CustomTabBar.m */; };
 		F176A74B1E263AB00076D301 /* PublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A74A1E263AB00076D301 /* PublishView.m */; };
+		F19013BF1E277C52000B80BB /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19013BE1E277C52000B80BB /* FriendTrendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,7 @@
 		F176A7471E2607210076D301 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
 		F176A7491E263AB00076D301 /* PublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishView.h; sourceTree = "<group>"; };
 		F176A74A1E263AB00076D301 /* PublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishView.m; sourceTree = "<group>"; };
+		F19013BE1E277C52000B80BB /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
 		FB061BB03DE4A67E5385E1C5 /* Pods-PSBaiSi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBaiSi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSBaiSi/Pods-PSBaiSi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -556,6 +558,7 @@
 			children = (
 				F176A7431E2606350076D301 /* FriendTrendViewController.h */,
 				F176A7441E2606350076D301 /* FriendTrendViewController.m */,
+				F19013BE1E277C52000B80BB /* FriendTrendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -840,6 +843,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19013BF1E277C52000B80BB /* FriendTrendViewController.xib in Resources */,
 				F135C4291E276563008BB9FE /* MyWebViewController.xib in Resources */,
 				F176A5441E25C0660076D301 /* LaunchScreen.storyboard in Resources */,
 				F135C4101E275116008BB9FE /* MyCollectionViewCell.xib in Resources */,

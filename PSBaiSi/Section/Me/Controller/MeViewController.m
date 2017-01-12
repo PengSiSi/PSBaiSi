@@ -47,6 +47,7 @@ static CGFloat const margin = 1;
 
 - (void)loadData {
    
+    [SVProgressHUD show];
     NSDictionary *param = @{@"a" : @"square",
                             @"c" : @"topic"};
     [HTTPTool getWithURL:MY_URL headers:nil params:param success:^(id json) {
@@ -60,8 +61,9 @@ static CGFloat const margin = 1;
         // 注意: 这里一定要设置一次,否则高度不对!!
         self.tableView.tableFooterView = self.collectionView;
         [self.collectionView reloadData];
+        [SVProgressHUD dismiss];
     } failure:^(NSError *error) {
-        
+        [SVProgressHUD showErrorWithStatus:KREQUESTERROR];
     }];
 }
 
