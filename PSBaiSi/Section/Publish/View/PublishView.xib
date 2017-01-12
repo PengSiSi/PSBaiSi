@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PublishView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shareBottomBackground" translatesAutoresizingMaskIntoConstraints="NO" id="JKX-9A-mob">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBD-m6-isF">
+                    <rect key="frame" x="25" y="573" width="326" height="40"/>
+                    <state key="normal" image="shareButtonCancel">
+                        <color key="titleColor" red="0.084342277486911033" green="0.084342277486911033" blue="0.084342277486911033" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancleDidClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="WF8-jw-m8G"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="JKX-9A-mob" secondAttribute="bottom" id="Q7f-Wq-1Zr"/>
+                <constraint firstItem="JKX-9A-mob" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bG2-Fe-KxU"/>
+                <constraint firstItem="nBD-m6-isF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="bZS-QS-TAm"/>
+                <constraint firstAttribute="trailing" secondItem="JKX-9A-mob" secondAttribute="trailing" id="eVM-N7-8ug"/>
+                <constraint firstAttribute="bottom" secondItem="nBD-m6-isF" secondAttribute="bottom" constant="54" id="hvw-GQ-Zlk"/>
+                <constraint firstItem="JKX-9A-mob" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tI5-uy-LuP"/>
+                <constraint firstAttribute="trailing" secondItem="nBD-m6-isF" secondAttribute="trailing" constant="24" id="vgy-dX-O9l"/>
+            </constraints>
+            <point key="canvasLocation" x="19.5" y="-88.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shareBottomBackground" width="320" height="343"/>
+        <image name="shareButtonCancel" width="289" height="40"/>
+    </resources>
+</document>

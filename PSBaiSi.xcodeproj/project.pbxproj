@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AD37B7A2909D8339AAAA99C5 /* libPods-PSBaiSi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8E0DDFC0C02C3E75265F71 /* libPods-PSBaiSi.a */; };
+		F135C3BB1E270E01008BB9FE /* PublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F135C3BA1E270E01008BB9FE /* PublishView.xib */; };
+		F135C3C71E271BEA008BB9FE /* FastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C3C61E271BEA008BB9FE /* FastButton.m */; };
+		F135C3C91E272F1B008BB9FE /* MeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F135C3C81E272F1B008BB9FE /* MeStoryboard.storyboard */; };
+		F135C40F1E275116008BB9FE /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C40D1E275115008BB9FE /* MyCollectionViewCell.m */; };
+		F135C4101E275116008BB9FE /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F135C40E1E275115008BB9FE /* MyCollectionViewCell.xib */; };
+		F135C4141E275957008BB9FE /* HTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C4131E275957008BB9FE /* HTTPTool.m */; };
+		F135C41E1E275F24008BB9FE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C4171E275F24008BB9FE /* SVIndefiniteAnimatedView.m */; };
+		F135C41F1E275F24008BB9FE /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F135C4191E275F24008BB9FE /* SVProgressHUD.bundle */; };
+		F135C4201E275F24008BB9FE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C41B1E275F24008BB9FE /* SVProgressHUD.m */; };
+		F135C4211E275F24008BB9FE /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C41D1E275F24008BB9FE /* SVRadialGradientLayer.m */; };
+		F135C4241E276017008BB9FE /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C4231E276017008BB9FE /* ItemModel.m */; };
+		F135C4281E276563008BB9FE /* MyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F135C4261E276563008BB9FE /* MyWebViewController.m */; };
+		F135C4291E276563008BB9FE /* MyWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F135C4271E276563008BB9FE /* MyWebViewController.xib */; };
 		F176A5361E25C0660076D301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A5351E25C0660076D301 /* main.m */; };
 		F176A5391E25C0660076D301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A5381E25C0660076D301 /* AppDelegate.m */; };
 		F176A53F1E25C0660076D301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176A53D1E25C0660076D301 /* Main.storyboard */; };
@@ -38,6 +51,7 @@
 		F176A7421E2606270076D301 /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A7411E2606270076D301 /* PublishViewController.m */; };
 		F176A7451E2606350076D301 /* FriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A7441E2606350076D301 /* FriendTrendViewController.m */; };
 		F176A7481E2607210076D301 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A7471E2607210076D301 /* CustomTabBar.m */; };
+		F176A74B1E263AB00076D301 /* PublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = F176A74A1E263AB00076D301 /* PublishView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +74,37 @@
 /* Begin PBXFileReference section */
 		B7856E6FEE41BEA463F821FD /* Pods-PSBaiSi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBaiSi.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSBaiSi/Pods-PSBaiSi.release.xcconfig"; sourceTree = "<group>"; };
 		EA8E0DDFC0C02C3E75265F71 /* libPods-PSBaiSi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PSBaiSi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F135C3BA1E270E01008BB9FE /* PublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishView.xib; sourceTree = "<group>"; };
+		F135C3BC1E2710BA008BB9FE /* Macros_Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_Color.h; sourceTree = "<group>"; };
+		F135C3BD1E2710BA008BB9FE /* Macros_Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_Font.h; sourceTree = "<group>"; };
+		F135C3BE1E2710BA008BB9FE /* Macros_NetInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_NetInterface.h; sourceTree = "<group>"; };
+		F135C3BF1E2710BA008BB9FE /* Macros_Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_Notification.h; sourceTree = "<group>"; };
+		F135C3C01E2710BA008BB9FE /* Macros_Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_Number.h; sourceTree = "<group>"; };
+		F135C3C11E2710BA008BB9FE /* Macros_Space.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_Space.h; sourceTree = "<group>"; };
+		F135C3C21E2710BA008BB9FE /* Macros_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_String.h; sourceTree = "<group>"; };
+		F135C3C31E2710BA008BB9FE /* Macros_UIAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_UIAdapter.h; sourceTree = "<group>"; };
+		F135C3C41E2710BA008BB9FE /* Macros_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros_Util.h; sourceTree = "<group>"; };
+		F135C3C51E271BEA008BB9FE /* FastButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastButton.h; sourceTree = "<group>"; };
+		F135C3C61E271BEA008BB9FE /* FastButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastButton.m; sourceTree = "<group>"; };
+		F135C3C81E272F1B008BB9FE /* MeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MeStoryboard.storyboard; sourceTree = "<group>"; };
+		F135C40C1E275115008BB9FE /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		F135C40D1E275115008BB9FE /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		F135C40E1E275115008BB9FE /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		F135C4121E275957008BB9FE /* HTTPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPTool.h; sourceTree = "<group>"; };
+		F135C4131E275957008BB9FE /* HTTPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPTool.m; sourceTree = "<group>"; };
+		F135C4161E275F24008BB9FE /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F135C4171E275F24008BB9FE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F135C4181E275F24008BB9FE /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		F135C4191E275F24008BB9FE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F135C41A1E275F24008BB9FE /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		F135C41B1E275F24008BB9FE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		F135C41C1E275F24008BB9FE /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		F135C41D1E275F24008BB9FE /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		F135C4221E276017008BB9FE /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		F135C4231E276017008BB9FE /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		F135C4251E276563008BB9FE /* MyWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewController.h; sourceTree = "<group>"; };
+		F135C4261E276563008BB9FE /* MyWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewController.m; sourceTree = "<group>"; };
+		F135C4271E276563008BB9FE /* MyWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebViewController.xib; sourceTree = "<group>"; };
 		F176A5311E25C0660076D301 /* PSBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176A5351E25C0660076D301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F176A5371E25C0660076D301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,15 +119,6 @@
 		F176A5551E25C0660076D301 /* PSBaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSBaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176A5591E25C0660076D301 /* PSBaiSiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSBaiSiUITests.m; sourceTree = "<group>"; };
 		F176A55B1E25C0660076D301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F176A6331E25C3F80076D301 /* Macros_Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_Color.h; sourceTree = "<group>"; };
-		F176A6341E25C3F80076D301 /* Macros_Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_Font.h; sourceTree = "<group>"; };
-		F176A6351E25C3F80076D301 /* Macros_NetInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_NetInterface.h; sourceTree = "<group>"; };
-		F176A6361E25C3F80076D301 /* Macros_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_Notification.h; sourceTree = "<group>"; };
-		F176A6371E25C3F80076D301 /* Macros_Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_Number.h; sourceTree = "<group>"; };
-		F176A6381E25C3F80076D301 /* Macros_Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_Space.h; sourceTree = "<group>"; };
-		F176A6391E25C3F80076D301 /* Macros_String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_String.h; sourceTree = "<group>"; };
-		F176A63A1E25C3F80076D301 /* Macros_UIAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_UIAdapter.h; sourceTree = "<group>"; };
-		F176A63B1E25C3F80076D301 /* Macros_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_Util.h; sourceTree = "<group>"; };
 		F176A6D31E25E3C50076D301 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
 		F176A6D41E25E3C50076D301 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		F176A6D51E25E3C50076D301 /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
@@ -129,6 +165,8 @@
 		F176A7441E2606350076D301 /* FriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTrendViewController.m; sourceTree = "<group>"; };
 		F176A7461E2607210076D301 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
 		F176A7471E2607210076D301 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		F176A7491E263AB00076D301 /* PublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishView.h; sourceTree = "<group>"; };
+		F176A74A1E263AB00076D301 /* PublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishView.m; sourceTree = "<group>"; };
 		FB061BB03DE4A67E5385E1C5 /* Pods-PSBaiSi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSBaiSi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSBaiSi/Pods-PSBaiSi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +211,30 @@
 				B7856E6FEE41BEA463F821FD /* Pods-PSBaiSi.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F135C4111E275931008BB9FE /* HttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				F135C4121E275957008BB9FE /* HTTPTool.h */,
+				F135C4131E275957008BB9FE /* HTTPTool.m */,
+			);
+			path = HttpTool;
+			sourceTree = "<group>";
+		};
+		F135C4151E275F24008BB9FE /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F135C4161E275F24008BB9FE /* SVIndefiniteAnimatedView.h */,
+				F135C4171E275F24008BB9FE /* SVIndefiniteAnimatedView.m */,
+				F135C4181E275F24008BB9FE /* SVProgressHUD-Prefix.pch */,
+				F135C4191E275F24008BB9FE /* SVProgressHUD.bundle */,
+				F135C41A1E275F24008BB9FE /* SVProgressHUD.h */,
+				F135C41B1E275F24008BB9FE /* SVProgressHUD.m */,
+				F135C41C1E275F24008BB9FE /* SVRadialGradientLayer.h */,
+				F135C41D1E275F24008BB9FE /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		F176A5281E25C0660076D301 = {
@@ -272,15 +334,15 @@
 		F176A6321E25C3F80076D301 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				F176A6331E25C3F80076D301 /* Macros_Color.h */,
-				F176A6341E25C3F80076D301 /* Macros_Font.h */,
-				F176A6351E25C3F80076D301 /* Macros_NetInterface.h */,
-				F176A6361E25C3F80076D301 /* Macros_Notification.h */,
-				F176A6371E25C3F80076D301 /* Macros_Number.h */,
-				F176A6381E25C3F80076D301 /* Macros_Space.h */,
-				F176A6391E25C3F80076D301 /* Macros_String.h */,
-				F176A63A1E25C3F80076D301 /* Macros_UIAdapter.h */,
-				F176A63B1E25C3F80076D301 /* Macros_Util.h */,
+				F135C3BC1E2710BA008BB9FE /* Macros_Color.h */,
+				F135C3BD1E2710BA008BB9FE /* Macros_Font.h */,
+				F135C3BE1E2710BA008BB9FE /* Macros_NetInterface.h */,
+				F135C3BF1E2710BA008BB9FE /* Macros_Notification.h */,
+				F135C3C01E2710BA008BB9FE /* Macros_Number.h */,
+				F135C3C11E2710BA008BB9FE /* Macros_Space.h */,
+				F135C3C21E2710BA008BB9FE /* Macros_String.h */,
+				F135C3C31E2710BA008BB9FE /* Macros_UIAdapter.h */,
+				F135C3C41E2710BA008BB9FE /* Macros_Util.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -302,6 +364,7 @@
 		F176A63D1E25C3F80076D301 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				F135C4111E275931008BB9FE /* HttpTool */,
 				F176A63E1E25C3F80076D301 /* Encode */,
 				F176A63F1E25C3F80076D301 /* Format */,
 				F176A6401E25C3F80076D301 /* Log */,
@@ -356,6 +419,7 @@
 		F176A65A1E25C3F80076D301 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				F135C4151E275F24008BB9FE /* SVProgressHUD */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -560,6 +624,10 @@
 			children = (
 				F176A73A1E26060D0076D301 /* MeViewController.h */,
 				F176A73B1E26060D0076D301 /* MeViewController.m */,
+				F135C3C81E272F1B008BB9FE /* MeStoryboard.storyboard */,
+				F135C4251E276563008BB9FE /* MyWebViewController.h */,
+				F135C4261E276563008BB9FE /* MyWebViewController.m */,
+				F135C4271E276563008BB9FE /* MyWebViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -567,6 +635,8 @@
 		F176A71F1E25F9A90076D301 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F135C4221E276017008BB9FE /* ItemModel.h */,
+				F135C4231E276017008BB9FE /* ItemModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -574,6 +644,9 @@
 		F176A7201E25F9A90076D301 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F135C40C1E275115008BB9FE /* MyCollectionViewCell.h */,
+				F135C40D1E275115008BB9FE /* MyCollectionViewCell.m */,
+				F135C40E1E275115008BB9FE /* MyCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -640,6 +713,11 @@
 		F176A7281E25F9C40076D301 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F176A7491E263AB00076D301 /* PublishView.h */,
+				F176A74A1E263AB00076D301 /* PublishView.m */,
+				F135C3BA1E270E01008BB9FE /* PublishView.xib */,
+				F135C3C51E271BEA008BB9FE /* FastButton.h */,
+				F135C3C61E271BEA008BB9FE /* FastButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -762,8 +840,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F135C4291E276563008BB9FE /* MyWebViewController.xib in Resources */,
 				F176A5441E25C0660076D301 /* LaunchScreen.storyboard in Resources */,
+				F135C4101E275116008BB9FE /* MyCollectionViewCell.xib in Resources */,
+				F135C3C91E272F1B008BB9FE /* MeStoryboard.storyboard in Resources */,
+				F135C41F1E275F24008BB9FE /* SVProgressHUD.bundle in Resources */,
 				F176A5411E25C0660076D301 /* Assets.xcassets in Resources */,
+				F135C3BB1E270E01008BB9FE /* PublishView.xib in Resources */,
 				F176A7301E25FB7B0076D301 /* AdvertiseViewController.xib in Resources */,
 				F176A53F1E25C0660076D301 /* Main.storyboard in Resources */,
 			);
@@ -844,13 +927,19 @@
 				F176A7451E2606350076D301 /* FriendTrendViewController.m in Sources */,
 				F176A6EC1E25E3C50076D301 /* NSString+Pinyin.m in Sources */,
 				F176A7361E2605270076D301 /* UIBarButtonItem+GFItem.m in Sources */,
+				F135C4241E276017008BB9FE /* ItemModel.m in Sources */,
 				F176A6EB1E25E3C50076D301 /* NSDictionary+Log.m in Sources */,
 				F176A6F31E25E3C50076D301 /* UIScrollView+ScalableCover.m in Sources */,
 				F176A7481E2607210076D301 /* CustomTabBar.m in Sources */,
+				F176A74B1E263AB00076D301 /* PublishView.m in Sources */,
 				F176A5391E25C0660076D301 /* AppDelegate.m in Sources */,
 				F176A6F41E25E3C50076D301 /* UITextView+Extension.m in Sources */,
+				F135C41E1E275F24008BB9FE /* SVIndefiniteAnimatedView.m in Sources */,
 				F176A5361E25C0660076D301 /* main.m in Sources */,
+				F135C3C71E271BEA008BB9FE /* FastButton.m in Sources */,
+				F135C40F1E275116008BB9FE /* MyCollectionViewCell.m in Sources */,
 				F176A70A1E25E5530076D301 /* BaseNavigationController.m in Sources */,
+				F135C4201E275F24008BB9FE /* SVProgressHUD.m in Sources */,
 				F176A7391E2606060076D301 /* NewViewController.m in Sources */,
 				F176A73F1E26061E0076D301 /* EssenceViewController.m in Sources */,
 				F176A7331E25FEF60076D301 /* MainTabBarController.m in Sources */,
@@ -858,8 +947,11 @@
 				F176A73C1E26060D0076D301 /* MeViewController.m in Sources */,
 				F176A6EF1E25E3C50076D301 /* UIImage+Common.m in Sources */,
 				F176A6F01E25E3C50076D301 /* UIImage+CompressImage.m in Sources */,
+				F135C4141E275957008BB9FE /* HTTPTool.m in Sources */,
 				F176A6ED1E25E3C50076D301 /* NSTimer+addition.m in Sources */,
 				F176A6F61E25E3C50076D301 /* UIView+Frame.m in Sources */,
+				F135C4281E276563008BB9FE /* MyWebViewController.m in Sources */,
+				F135C4211E275F24008BB9FE /* SVRadialGradientLayer.m in Sources */,
 				F176A7421E2606270076D301 /* PublishViewController.m in Sources */,
 				F176A6EE1E25E3C50076D301 /* UIButton+AICategory.m in Sources */,
 			);

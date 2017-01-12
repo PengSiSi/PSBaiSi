@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F6ABD15556D72952A1DA76A911888759E4E13029",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F6ABD15556D72952A1DA76A911888759E4E13029" : 9223372036854775807,
+    "D56E59D442BA7D20E040A3985FFCDE6C791DDED1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FA96AB3F-DE99-475D-A389-5D47F18A60CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F6ABD15556D72952A1DA76A911888759E4E13029" : "PSBaiSi\/",
+    "D56E59D442BA7D20E040A3985FFCDE6C791DDED1" : "PSBaiSi\/PSBaiSi\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PSBaiSi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PSBaiSi.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PengSiSi\/PSBaiSi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D56E59D442BA7D20E040A3985FFCDE6C791DDED1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PengSiSi\/PSBaiSi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6ABD15556D72952A1DA76A911888759E4E13029"
+    }
+  ]
+}
